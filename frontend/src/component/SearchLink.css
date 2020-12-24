@@ -1,0 +1,30 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+
+.item {
+    background-color: #507176;
+    height: 1.9rem;
+}
+
+.items {
+    display: inline-block;
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Nanum Gothic Coding', monospace;
+    line-height: 1.8rem;
+    width: 25%;
+    min-width: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.items:hover {
+    font-size: 15px;
+    background-color: #495057;
+}
+
+.items:active, .items:active {
+    background-color: #1862ab;
+}

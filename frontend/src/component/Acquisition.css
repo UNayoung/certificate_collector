@@ -1,0 +1,43 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+
+.butttt {
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background-color: white;
+}
+
+.baaa {
+    background: #534C4C;
+    color: white;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 13px;
+    position:relative;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+}
+.baaa:hover {
+    background:#fff;
+    color:#1AAB8A;
+}
+.baaa:before, .baaa:after {
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1AAB8A;
+    transition:400ms ease all;
+}
+.baaa:after {
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+.baaa:hover:before, .baaa:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}

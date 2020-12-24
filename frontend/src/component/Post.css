@@ -1,0 +1,84 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+
+.mybutton {
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background-color: white;
+}
+
+.searchitem {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.searchitem li {
+    padding: 5px 0px 5px 5px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #BABABA;
+}
+
+.searchitem li:before {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 5px 6px 0px;
+}
+
+.searchitem span {
+    font-size: 13px;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.searchitem button {
+    background: #534C4C;
+    color: white;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 13px;
+    position:relative;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+}
+
+.searchitem button:hover {
+    background:#fff;
+    color:#1AAB8A;
+}
+
+.searchitem button:before, button after {
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1AAB8A;
+    transition:400ms ease all;
+}
+
+.searchitem button:after {
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+
+.searchitem button:hover:before, button:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+.searchitem a {
+    font-size: 11px;
+    color: #507176;
+    text-decoration: none;
+}
+
+.searchitem a:hover {
+    text-decoration: underline;
+    color: black;
+}

@@ -1,0 +1,35 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+
+#ahrfhr {
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Nanum Gothic Coding', monospace;
+    margin-left: 8px;
+}
+
+.li {
+    background-color: #FF6363;
+    height: 2.3rem;
+    line-height: 2rem;
+}
+
+.mi {
+    display: inline-block;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: 'Nanum Gothic Coding', monospace;
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.mi:hover {
+    background-color: #983030;
+}
+
+.mi:active, .mi:active {
+    background-color: #983030;
+}

@@ -1,0 +1,29 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+
+#welcome {
+    width: 100%;
+    text-align: center;
+    height: 75px;
+    line-height: 75px;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.star {
+    width: 600px;
+    height: 400px;
+}
+
+.starparent {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.load {
+    text-align: center;
+}
+
+.loading {
+    padding-top: 80px;
+    width: 300px;
+    height: 300px;
+}
